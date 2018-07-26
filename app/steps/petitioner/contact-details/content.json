@@ -1,0 +1,33 @@
+{
+    "lng": "en",
+    "resources": {
+        "en": {
+            "translation": {
+                "content": {
+                    "question": "How you'll be contacted",
+                    "communicateParagraph1": "You'll be sent emails by the court throughout the divorce. You must agree to receive these emails to use this service.",
+                    "communicateParagraph2": "The court will send email notifications to:",
+                    "communicateParagraph3": "You can provide a UK phone number as another way for the court to contact you. This is optional.",
+                    "confidentialContactDetails": "Your email address and phone number will be kept confidential from your {{ divorceWho }}.",
+                    "email": "Your email address",
+                    "petitionerPhoneNumber": "Enter your phone number",
+                    "petitionerConsent": "I agree that the divorce centre can send me notifications and deliver (serve) court documents to me by email."
+                },
+
+                "checkYourAnswersContent": {
+                    "email": "Your email address",
+                    "petitionerPhoneNumber": "Your phone number"
+                },
+
+                "errors": {
+                    "petitionerPhoneNumber": {
+                        "invalid": "Enter a valid telephone number. Telephone number must be a minimum length of 9 and can only contain the numbers 0-9 and the symbols +, - , ( , ) , ."
+                    },
+                    "petitionerConsent": {
+                        "required": "You must agree to receive notifications and court documents by email to use this service."
+                    }
+                }
+            }
+        }
+    }
+}

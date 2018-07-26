@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "marriage-where",
+  "type": "object",
+  "properties": {
+    "petitionerFirstName" : {
+      "type" : "string"
+    },
+    "petitionerLastName" : {
+      "type" : "string"
+    },
+    "respondentFirstName" : {
+      "type" : "string"
+    },
+    "respondentLastName" : {
+      "type" : "string"
+    }
+  },
+  "required" : [
+      "petitionerFirstName",
+      "petitionerLastName",
+      "respondentFirstName",
+      "respondentLastName"
+    ]
+}

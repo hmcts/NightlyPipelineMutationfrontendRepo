@@ -1,0 +1,21 @@
+
+
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "petitioner-contact-details",
+  "type": "object",
+  "properties": {
+    "petitionerPhoneNumber": {
+      "type": "string",
+      "minLength": 9,
+      "pattern": "^[0-9 +().-]+$"
+    },
+    "petitionerConsent": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "petitionerConsent"
+  ]
+
+}

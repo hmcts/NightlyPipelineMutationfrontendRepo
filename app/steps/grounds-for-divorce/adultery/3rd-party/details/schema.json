@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "adultery-3rd-party-details",
+  "type": "object",
+  "properties": {
+    "reasonForDivorceAdultery3rdPartyFirstName": {
+      "type": "string"
+    },
+    "reasonForDivorceAdultery3rdPartyLastName": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "reasonForDivorceAdultery3rdPartyFirstName",
+    "reasonForDivorceAdultery3rdPartyLastName"
+  ]
+}
