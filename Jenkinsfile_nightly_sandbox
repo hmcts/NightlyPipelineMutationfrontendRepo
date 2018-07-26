@@ -14,7 +14,6 @@ String component = "pfe"
 def type = "nodejs"
 
     withNightlyPipeline(type, product, component) {
-        
-        env.TEST_URL = 'https://div-pfe-aat.service.core-compute-aat.internal'
-    
+        enableMutationTest()
+        env.TEST_URL = 'https://div-pfe-aat.service.core-compute-aat.internal'    
 }
