@@ -82,7 +82,7 @@
     "lodash": "^4.16.4",
     "moment": "^2.19.3",
     "negotiator": "^0.6.1",
-    "nomnoml": "0.2.0",
+    "nomnoml": "0.10.0",
     "nsp": "^3.2.1",
     "nsp-preprocessor-yarn": "^1.1.2",
     "nunjucks": "3.1.3",
